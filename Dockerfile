@@ -1,13 +1,13 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Toputech/Topu-ai.git /root/Topumdai
+RUN git clone https://github.com/Bot-tezt/Linnea_pro.git /root/Protechai
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
-RUN rm -rf /root/Topumdai/node_modules
+RUN rm -rf /root/Protechai/node_modules
 
 # Install dependencies
-WORKDIR /root/Topumdai
+WORKDIR /root/Protechai
 RUN npm install
 
 # Add additional Steps To Run...

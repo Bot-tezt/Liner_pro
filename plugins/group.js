@@ -968,8 +968,8 @@ const {
    }
  });
  smd({
-   pattern: "😑",
-   alias: ["protech"],
+   pattern: "❤️",
+   alias: ["linnea"],
    desc: "Tags everyperson of group without mentioning their numbers",
    category: "group",
    filename: __filename,

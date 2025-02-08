@@ -13,7 +13,7 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
-global.github = process.env.GITHUB || "https://github.com/Toputech/Topu-ai";
+global.github = process.env.GITHUB || "https://github.com/Bot-tezt/Linnea_pro";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaEW2eE3WHTU7fTQht19";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaEW2eE3WHTU7fTQht19";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/7wHQXOG.jpeg";
@@ -47,11 +47,11 @@ module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ".,$,&,+,-,*,?,~,|,•,→,©,®,™,cyber,✓,!,#,/,@",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "3.3.4",
+  VERSION: process.env.VERSION || "4",
   caption: process.env.CAPTION || "𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 𝐏𝐫𝐨𝐓𝐞𝐜𝐡 𝐟𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧",
-  author: process.env.PACK_AUTHER || "CYBERDEX",
+  author: process.env.PACK_AUTHER || "LINNEA_MD",
   packname: process.env.PACK_NAME || "🧑‍🎄",
-  botname: process.env.BOT_NAME || "cyвerdeх",
+  botname: process.env.BOT_NAME || "linnea",
   ownername: process.env.OWNER_NAME || "PROTECH",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
@@ -61,7 +61,7 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
-  aitts_Voice_Id: process.env.AITTS_ID || "20",
+  aitts_Voice_Id: process.env.AITTS_ID || "21",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "0385228b961473710eff4e7daed873e8",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "cyвerdeх").toUpperCase(),

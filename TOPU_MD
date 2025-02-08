@@ -1,7 +1,7 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/Toputech/Topu-ai/root/Topumdai
-WORKDIR /root/Topumdai
+RUN git clone https://github.com/Bot-tezt/Linnea_pro/root/Protech
+WORKDIR /root/Protech
 RUN npm install
 EXPOSE 8000
 CMD ["npm","start" ] 
-# POWERD BY TOPU TECH
+# POWERD BY PROTECH
